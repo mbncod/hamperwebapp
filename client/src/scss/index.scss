@@ -1,0 +1,17 @@
+// Variable Overrides
+$theme-colors: (
+  "primary": #53A4E3
+);
+
+@font-face {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://fonts.googleapis.com/css?family=Titillium+Web') format("truetype");
+};
+
+ $font-family-base: "Titillium Web";
+
+@import "~bootstrap/scss/bootstrap";
+
+
